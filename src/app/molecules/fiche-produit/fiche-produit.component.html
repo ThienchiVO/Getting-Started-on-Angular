@@ -4,7 +4,7 @@
   [productId]="product.id"
 ></app-product-link>
 </h3>
-<app-paragraph-description [textDescription]="product.description"></app-paragraph-description>
+<app-paragraph-description [textDescription]="'Description :' + product.description"></app-paragraph-description>
 <app-button [textButton]="'Share'" [btnFunction]="share"></app-button>
 <app-product-alerts
 [product]="product"

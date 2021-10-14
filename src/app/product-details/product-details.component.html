@@ -2,7 +2,10 @@
 
 <div *ngIf="product">
   <app-header [headerText]="product.name" [headerSize]="3"></app-header>
-  <h4>{{ product.price | currency }}</h4>
+  <app-header
+    [headerText]="product.price | currency"
+    [headerSize]="4"
+  ></app-header>
   <p>{{ product.description }}</p>
   <button (click)="addToCart(product)">Buy</button>
 </div>
