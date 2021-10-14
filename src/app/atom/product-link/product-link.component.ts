@@ -7,7 +7,9 @@ import { products } from '../../products';
   styleUrls: ['./product-link.component.css']
 })
 export class ProductLinkComponent implements OnInit {
+  
   products = products;
+  
   constructor() { }
 
   ngOnInit() {
