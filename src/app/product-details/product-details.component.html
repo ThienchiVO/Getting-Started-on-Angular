@@ -1,7 +1,7 @@
-<h2>Product Details</h2>
+<app-header [headerText]="'Product Details'" [headerSize]="2"></app-header>
 
 <div *ngIf="product">
-  <h3>{{ product.name }}</h3>
+  <app-header [headerText]="product.name" [headerSize]="3"></app-header>
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
   <button (click)="addToCart(product)">Buy</button>
