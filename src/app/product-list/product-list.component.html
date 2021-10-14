@@ -2,7 +2,7 @@
 
 <div *ngFor="let product of products">
   <h3>
-    
+    <app-product-link></app-product-link>
   </h3>
   <p *ngIf="product.description">Description : {{ product.description }}</p>
   <button (click)="share()">Share</button>
