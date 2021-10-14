@@ -13,6 +13,7 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ProductLinkComponent } from './atom/product-link/product-link.component';
 import { ButtonComponent } from './atom/button/button.component';
+// import { ParagraphDescription } from './atom/paragraph-description/paragraph-description.component';
 
 @NgModule({
   imports: [
@@ -36,6 +37,7 @@ import { ButtonComponent } from './atom/button/button.component';
     ShippingComponent,
     ProductLinkComponent,
     ButtonComponent,
+    //ParagraphDescription,
   ],
   bootstrap: [AppComponent],
 })
