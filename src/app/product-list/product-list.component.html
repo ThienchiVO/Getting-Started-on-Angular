@@ -7,7 +7,7 @@
       [productId]="product.id"
     ></app-product-link>
   </h3>
-  <p *ngIf="product.description">Description : {{ product.description }}</p>
+  <app-paragraph-description [textDescription]="product.description"></app-paragraph-description>
   <app-button [textButton]="'Share'" [btnFunction]="share"></app-button>
   <app-product-alerts
     [product]="product"
