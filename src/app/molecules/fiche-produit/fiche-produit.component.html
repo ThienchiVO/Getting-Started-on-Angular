@@ -1,8 +1,5 @@
 <h3>
-  <app-product-link
-    [productName]="product.name"
-    [productId]="product.id"
-  ></app-product-link>
+  <app-link [linkName]="product.name" [linkId]="product.id"></app-link>
 </h3>
 <app-paragraph [text]="'Description : ' + product.description"></app-paragraph>
 <app-button [textButton]="'Share'" [btnFunction]="share"></app-button>
