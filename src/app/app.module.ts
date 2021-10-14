@@ -43,6 +43,7 @@ import { LinkComponent } from './atom/link/link.component';
     ParagraphComponent,
     FicheProduitComponent,
     HeaderComponent,
+    LinkComponent,
   ],
   bootstrap: [AppComponent],
 })
