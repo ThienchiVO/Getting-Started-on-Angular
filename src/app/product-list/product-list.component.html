@@ -1,18 +1,7 @@
 <h2>Products</h2>
 
 <div *ngFor="let product of products">
-  <h3>
-    <app-product-link
-      [productName]="product.name"
-      [productId]="product.id"
-    ></app-product-link>
-  </h3>
-  <app-paragraph-description [textDescription]="product.description"></app-paragraph-description>
-  <app-button [textButton]="'Share'" [btnFunction]="share"></app-button>
-  <app-product-alerts
-    [product]="product"
-    (notify)="onNotify()"
-  ></app-product-alerts>
+
 </div>
 
 <!-- 
