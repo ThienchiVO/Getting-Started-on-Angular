@@ -16,6 +16,7 @@ import { ButtonComponent } from './atom/button/button.component';
 import { ParagraphComponent } from './atom/paragraph/paragraph.component';
 import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.component';
 import { HeaderComponent } from './atom/header/header.component';
+import { LinkComponent } from './atom/link/link.component';
 
 @NgModule({
   imports: [
