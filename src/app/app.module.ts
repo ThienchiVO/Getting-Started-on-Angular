@@ -13,7 +13,7 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ProductLinkComponent } from './atom/product-link/product-link.component';
 import { ButtonComponent } from './atom/button/button.component';
-import { ParagraphDescriptionComponent } from './atom/paragraph-description/paragraph-description.component';
+import { ParagraphComponent } from './atom/paragraph/paragraph.component';
 import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.component';
 import { HeaderComponent } from './atom/header/header.component';
 
@@ -39,7 +39,7 @@ import { HeaderComponent } from './atom/header/header.component';
     ShippingComponent,
     ProductLinkComponent,
     ButtonComponent,
-    ParagraphDescriptionComponent,
+    ParagraphComponent,
     FicheProduitComponent,
     HeaderComponent,
   ],
