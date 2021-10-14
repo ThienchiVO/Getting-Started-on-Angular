@@ -15,6 +15,7 @@ import { ProductLinkComponent } from './atom/product-link/product-link.component
 import { ButtonComponent } from './atom/button/button.component';
 import { ParagraphDescriptionComponent } from './atom/paragraph-description/paragraph-description.component';
 import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.component';
+import { HeaderComponent } from './atom/header/header.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.c
     ButtonComponent,
     ParagraphDescriptionComponent,
     FicheProduitComponent,
+    HeaderComponent,
   ],
   bootstrap: [AppComponent],
 })
