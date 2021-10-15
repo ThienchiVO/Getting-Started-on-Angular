@@ -6,6 +6,6 @@
     [headerText]="product.price | currency"
     [headerSize]="4"
   ></app-header>
-  <p>{{ product.description }}</p>
-  <button (click)="addToCart(product)">Buy</button>
+  <app-paragraph [text]="product.description"></app-paragraph>
+  <app-button [textButton]="'Buy'" (click)="addToCart(product)"></app-button>
 </div>
