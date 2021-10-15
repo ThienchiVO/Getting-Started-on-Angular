@@ -3,7 +3,10 @@
 </h3>
 <app-paragraph [text]="'Description : ' + product.description"></app-paragraph>
 <app-button [textButton]="'Share'" [btnFunction]="share"></app-button>
-<app-product-alerts
+<app-button
+  *ngIf="product && product.price > 700"
   [product]="product"
+  [btnFunction]="onNotify"
+  [textButton]="'Notify me'"
   (notify)="onNotify()"
-></app-product-alerts>
+></app-button>
