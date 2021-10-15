@@ -1,12 +1,15 @@
-<h3>Cart</h3>
+<app-header [headerText]="'Cart'" [headerSize]="3"></app-header>
 
-<p>
-  <a routerLink="/shipping">Shipping Prices</a>
-</p>
+<app-link
+  [linkText]="'Shipping Prices'"
+  [linkTitle]="'Shipping Prices détails'"
+  routerLink="/shipping"
+  >/</app-link
+>
 
 <div class="cart-item" *ngFor="let item of items">
-  <span>{{ item.name }}</span>
-  <span>{{ item.price | currency }}</span>
+  <app-span [spanText]="item.name"></app-span>
+  <app-span [spanText]="item.price | currency"></app-span>
 </div>
 
 <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">

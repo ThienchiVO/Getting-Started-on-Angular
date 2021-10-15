@@ -7,7 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './organisms/product-list/product-list.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
+import { ProductDetailsComponent } from './molecules/product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { ButtonComponent } from './atom/button/button.component';
@@ -15,6 +15,7 @@ import { ParagraphComponent } from './atom/paragraph/paragraph.component';
 import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.component';
 import { HeaderComponent } from './atom/header/header.component';
 import { LinkComponent } from './atom/link/link.component';
+import { SpanComponent } from './atom/span/span.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { LinkComponent } from './atom/link/link.component';
     FicheProduitComponent,
     HeaderComponent,
     LinkComponent,
+    SpanComponent,
   ],
   bootstrap: [AppComponent],
 })
