@@ -16,6 +16,7 @@ import { FicheProduitComponent } from './molecules/fiche-produit/fiche-produit.c
 import { HeaderComponent } from './atom/header/header.component';
 import { LinkComponent } from './atom/link/link.component';
 import { SpanComponent } from './atom/span/span.component';
+import { LabelComponent } from './atom/label/label.component';
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { SpanComponent } from './atom/span/span.component';
     HeaderComponent,
     LinkComponent,
     SpanComponent,
+    LabelComponent,
   ],
   bootstrap: [AppComponent],
 })
