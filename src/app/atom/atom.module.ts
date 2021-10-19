@@ -6,7 +6,7 @@ import { LabelComponent } from './label/label.component';
 import { LinkComponent } from './link/link.component';
 import { ParagraphComponent } from './paragraph/paragraph.component';
 import { SpanComponent } from './span/span.component';
-import { InputComponent } from './input/inputcomponent';
+import { InputComponent } from './input/input.component';
 
 @NgModule({
   imports: [CommonModule],
