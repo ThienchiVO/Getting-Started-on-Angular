@@ -17,6 +17,7 @@ import { HeaderComponent } from './atom/header/header.component';
 import { LinkComponent } from './atom/link/link.component';
 import { SpanComponent } from './atom/span/span.component';
 import { LabelComponent } from './atom/label/label.component';
+import { AtomModule } from './atom/atom.module';
 
 @NgModule({
   imports: [
@@ -29,6 +30,7 @@ import { LabelComponent } from './atom/label/label.component';
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
     ]),
+    AtomModule,
   ],
   declarations: [
     AppComponent,
@@ -37,13 +39,7 @@ import { LabelComponent } from './atom/label/label.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    ButtonComponent,
-    ParagraphComponent,
     FicheProduitComponent,
-    HeaderComponent,
-    LinkComponent,
-    SpanComponent,
-    LabelComponent,
   ],
   bootstrap: [AppComponent],
 })
